@@ -29,7 +29,7 @@ public class PlayUI : MonoBehaviour
     private bool _isTimerRunning = false;
     private bool isAnswered = false;
 
-    // ログを出す秒数リスト
+    // 秒数リスト
     private readonly HashSet<int> Seconds = new HashSet<int> { 3, 2, 1 };
     // 既にログを出した秒数を記録
     private readonly HashSet<int> _Seconds = new HashSet<int>();
