@@ -1,0 +1,11 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Container" picking-mode="Ignore" style="flex-grow: 1; background-color: rgb(144, 148, 205);">
+        <ui:VisualElement name="ButtonContainer" picking-mode="Ignore" style="flex-grow: 1; position: absolute; top: 671px; left: 50%; height: 277px; width: 698px; align-items: stretch; justify-content: space-around; align-self: center; align-content: stretch; translate: -50% 0;">
+            <ui:Button text="リスタート" name="ReStartButton" style="width: 100%; height: 45%; border-left-color: rgb(128, 128, 128); border-right-color: rgb(128, 128, 128); border-top-color: rgb(128, 128, 128); border-bottom-color: rgb(128, 128, 128); border-top-width: 5px; border-right-width: 5px; border-bottom-width: 5px; border-left-width: 5px; font-size: 76px; -unity-font-style: bold;"/>
+            <ui:Button text="タイトル" name="TitleButton" style="width: 100%; height: 45%; border-left-color: rgb(128, 128, 128); border-right-color: rgb(128, 128, 128); border-top-color: rgb(128, 128, 128); border-bottom-color: rgb(128, 128, 128); border-top-width: 5px; border-right-width: 5px; border-bottom-width: 5px; border-left-width: 5px; font-size: 76px; -unity-font-style: bold;"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="ResultTextContainer" picking-mode="Ignore" style="flex-grow: 1; position: absolute; top: 211px; left: 50%; height: 252px; width: 1110px; transform-origin: center; translate: -50% 0; justify-content: center; align-items: stretch; align-self: center; align-content: center; -unity-font-style: normal;">
+            <ui:Label text="正解率は？？です" name="ResultText" picking-mode="Ignore" style="-unity-text-align: middle-center; align-items: center; justify-content: center; align-self: stretch; align-content: center; position: absolute; left: 50%; translate: -50% 0; -unity-font-style: bold; width: 100%; height: 70%; font-size: 100px;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

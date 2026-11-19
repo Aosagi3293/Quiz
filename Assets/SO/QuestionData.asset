@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 681310de4a73799478810a7bf2a044c2, type: 3}
+  m_Name: QuestionData
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionSO
+  questions:
+  - id: 1
+    question: 1 + 1 = ?
+    answerData:
+    - answer: 2
+      isAnswer: 1
+    - answer: 1
+      isAnswer: 0
+    - answer: 3
+      isAnswer: 0
+    - answer: 4
+      isAnswer: 0
+  - id: 2
+    question: "7 \xD7 8 = ?"
+    answerData:
+    - answer: 56
+      isAnswer: 1
+    - answer: 54
+      isAnswer: 0
+    - answer: 64
+      isAnswer: 0
+    - answer: 48
+      isAnswer: 0
+  - id: 3
+    question: 1.4 + 0.7 = ?
+    answerData:
+    - answer: 1.1
+      isAnswer: 0
+    - answer: 2.1
+      isAnswer: 1
+    - answer: 1.9
+      isAnswer: 0
+    - answer: 2.0
+      isAnswer: 0
+  - id: 4
+    question: "\u300C\u5149\u300D\u306E\u97F3\u8AAD\u307F\u306F\uFF1F"
+    answerData:
+    - answer: "\u30B3\u30A6"
+      isAnswer: 1
+    - answer: "\u30DB\u30A6"
+      isAnswer: 0
+    - answer: "\u30ED\u30A6"
+      isAnswer: 0
+    - answer: "\u30BD\u30A6"
+      isAnswer: 0
+  - id: 5
+    question: "\u30A6\u30B5\u30AE\u306E\u6570\u3048\u65B9\u306F\uFF1F"
+    answerData:
+    - answer: "\u3072\u304D"
+      isAnswer: 1
+    - answer: "\u307E\u3044"
+      isAnswer: 0
+    - answer: "\u307B\u3093"
+      isAnswer: 0
+    - answer: "\u3055\u3064"
+      isAnswer: 0
+  - id: 6
+    question: "\u300C\u3042\u3064\u3044\u300D\u306E\u5BFE\u7FA9\u8A9E\u306F\uFF1F"
+    answerData:
+    - answer: "\u3055\u3080\u3044"
+      isAnswer: 1
+    - answer: "\u304A\u3082\u3044"
+      isAnswer: 0
+    - answer: "\u304B\u305F\u3044"
+      isAnswer: 0
+    - answer: "\u306F\u3084\u3044"
+      isAnswer: 0
+  - id: 7
+    question: "\u30A2\u30B5\u30AC\u30AA\u306E\u7A2E\u307E\u304D\u306B\u6700\u3082\u9069\u3057\u3066\u3044\u308B\u306E\u306F\uFF1F"
+    answerData:
+    - answer: "\u6625\uFF08\uFF14\u6708\uFF5E\uFF15\u6708\u3054\u308D\uFF09"
+      isAnswer: 1
+    - answer: "\u771F\u590F\uFF08\uFF18\u6708\u3054\u308D\uFF09"
+      isAnswer: 0
+    - answer: "\u79CB\uFF08\uFF11\uFF10\u6708\u3054\u308D\uFF09"
+      isAnswer: 0
+    - answer: "\u51AC\uFF08\uFF11\u6708\u3054\u308D\uFF09"
+      isAnswer: 0
+  - id: 8
+    question: "\u3082\u306E\u304C\u71C3\u3048\u308B\u969B\u5FC5\u8981\u306A\u6C17\u4F53\u306F\uFF1F"
+    answerData:
+    - answer: "\u3061\u3063\u7D20"
+      isAnswer: 0
+    - answer: "\u4E8C\u9178\u5316\u70AD\u7D20"
+      isAnswer: 0
+    - answer: "\u9178\u7D20"
+      isAnswer: 1
+    - answer: "\u6C34\u7D20"
+      isAnswer: 0
+  - id: 9
+    question: "\u6C34\u304C\u6CB8\u9A30\u3057\u59CB\u3081\u308B\u6E29\u5EA6\u306F\uFF1F"
+    answerData:
+    - answer: "\uFF11\uFF10\uFF10\u2103"
+      isAnswer: 1
+    - answer: "\uFF19\uFF10\u2103"
+      isAnswer: 0
+    - answer: "\uFF11\uFF10\uFF15\u2103"
+      isAnswer: 0
+    - answer: "\uFF10\u2103"
+      isAnswer: 0
+  - id: 10
+    question: "\u65E5\u672C\u3067\uFF11\u756A\u9AD8\u3044\u5C71\u306F\uFF1F"
+    answerData:
+    - answer: "\u6D45\u9593\u5C71"
+      isAnswer: 0
+    - answer: "\u5BCC\u58EB\u5C71"
+      isAnswer: 1
+    - answer: "\u5317\u5CB3"
+      isAnswer: 0
+    - answer: "\u69CD\u30F6\u5CB3"
+      isAnswer: 0
+  - id: 11
+    question: "\u524D\u65B9\u5F8C\u5186\u58B3\u306F\u4F5C\u3089\u308C\u305F\u6642\u4EE3\u306F\uFF1F"
+    answerData:
+    - answer: "\u7E04\u6587\u6642\u4EE3"
+      isAnswer: 0
+    - answer: "\u5F25\u751F\u6642\u4EE3"
+      isAnswer: 0
+    - answer: "\u53E4\u58B3\u6642\u4EE3"
+      isAnswer: 1
+    - answer: "\u5E73\u5B89\u6642\u4EE3"
+      isAnswer: 0
+  - id: 12
+    question: "\u65E5\u672C\u306E\u9996\u90FD\u306F"
+    answerData:
+    - answer: "\u6771\u4EAC\u90FD"
+      isAnswer: 1
+    - answer: "\u5317\u6D77\u9053"
+      isAnswer: 0
+    - answer: "\u5948\u826F\u770C"
+      isAnswer: 0
+    - answer: "\u4EAC\u90FD\u5E9C"
+      isAnswer: 0
